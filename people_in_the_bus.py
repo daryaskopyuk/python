@@ -11,8 +11,8 @@ def number(bus_stops):
     """
     res = 0
 
-    for stop in bus_stops:
-        res = res + stop[0] - stop [1]
+    for people_in, people_out in bus_stops:
+        res = res + people_in - people_out
     return res
 
 
