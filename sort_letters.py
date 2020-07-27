@@ -22,7 +22,7 @@ def sort_letters(text):
         else:
             count_by_letter[letter] = 1
 
-    # todo  - enumerate
+
     for index, letter in enumerate(text):
         if letter not in index_by_letter:
             index_by_letter[letter] = index
@@ -46,3 +46,6 @@ def sort_letters(text):
         letter * count
         for count, _, letter in reversed_pairs
     ])
+
+
+# todo  - enumerate
